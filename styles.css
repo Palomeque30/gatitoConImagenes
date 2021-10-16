@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cuadrado {
+    background-color: #575757;
+    width: 600px;
+    height: 600px;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .cuadrado .button {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-weight: bolder;
+    user-select: none;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .button:hover {
+    background-color: rgb(246, 246, 246);
+    cursor: pointer;
+  }
+  
+  .contenedor_bajo {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
